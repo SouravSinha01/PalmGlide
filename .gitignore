@@ -1,0 +1,9 @@
+.venv/
+.cache/
+__pycache__/
+.agents/
+.codex/
+models/*.task
+build/
+dist/
+*.spec.bak

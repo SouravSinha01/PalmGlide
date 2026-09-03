@@ -54,18 +54,14 @@ python palmglide.py
 
 ### Windows
 
-In PowerShell:
+Install [Python 3.12](https://www.python.org/downloads/) and clone or download this repository. Then open PowerShell in the PalmGlide folder and run:
 
 ```powershell
-py -m venv .venv
-.venv\Scripts\Activate.ps1
-py -m pip install -r requirements.txt
-New-Item -ItemType Directory -Force models
-Invoke-WebRequest `
-  -Uri "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task" `
-  -OutFile "models/hand_landmarker.task"
-py palmglide.py
+powershell -ExecutionPolicy Bypass -File .\scripts\install_windows.ps1
+.\.venv\Scripts\python.exe .\palmglide.py
 ```
+
+The installer creates an isolated Python environment, installs the dependencies, and downloads the hand-tracking model. You only need to run it once.
 
 ## Options
 

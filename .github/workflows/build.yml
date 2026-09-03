@@ -72,4 +72,5 @@ jobs:
             release/PalmGlide-Windows.zip \
             release/PalmGlide-Linux.tar.gz \
             --title "PalmGlide $GITHUB_REF_NAME" \
-            --notes "First public PalmGlide build for Windows and Linux. Camera processing stays on your computer."
+            --notes "First public PalmGlide build for Windows and Linux. Camera processing stays on your computer." \
+            --latest

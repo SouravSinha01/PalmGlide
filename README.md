@@ -1,5 +1,7 @@
 # PalmGlide
 
+![PalmGlide using local webcam hand tracking to scroll a document](assets/palmglide-hero.png)
+
 PalmGlide is a hands-free scrolling app for Windows and Linux. It watches for simple hand gestures through your webcam and sends normal mouse-wheel events to the window under your pointer.
 
 > Built because reaching for the mouse while reading papers felt like too much cardio.
